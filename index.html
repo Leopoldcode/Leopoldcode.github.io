@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scal=1.0" />
+    <title>Privacy Policy</title>
+    <style>
+      body {
+        background: #fff;
+        color: #000;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        line-height: 28px;
+        margin: 0;
+      }
+      .aligncenter {
+        text-align: center;
+        margin: auto;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .banner {
+        background-color: rgb(28, 80, 234);
+        margin: auto;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .caption {
+        text-align: center;
+        font-size: 34px;
+        font-family: "American Typewriter Bold";
+        padding: 50px 0;
+      }
+      .translations-list-container {
+        padding-bottom: 8px;
+        margin: 0 0 16px;
+      }
+      .container {
+        position: relative;
+        width: 90%;
+        max-width: 1024px;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="caption">簡單看天氣</div>
+    <div class="translations-content-container">
+      <div class="container"></div>
+    </div>
+    <footer>
+      <div class="aligncenter">
+        <p>
+          &copy; Copyright 2020-<span id="copyright-year"></span> 簡單看天氣
+          Technology Co., Ltd.
+        </p>
+      </div>
+    </footer>
+    <script>
+      document.getElementById("copyright-year").innerHTML =
+        new Date().getFullYear();
+    </script>
+  </body>
+</html>
